@@ -1,0 +1,27 @@
+doctype html
+html
+    head
+        title #{title}
+        link(rel='stylesheet', href='/css/styles.css')
+        meta(name="viewport" content="width=device-width, initial-scale=1")
+    body
+        center
+            div.header
+                h1 #{title}
+            div.menu
+
+
+                a(href='groups/create') Create a Group!
+                br
+
+
+                a(href='groups/get') Get all the Groups
+                br
+
+                a(href='groups/join') Join a Group!
+                br
+
+                a(href='groups/update') Update a Group!
+
+
+        block content

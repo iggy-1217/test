@@ -1,0 +1,31 @@
+doctype html
+html
+    head
+        title #{title}
+    body
+        center
+            div.header
+                h1 #{title}
+            div.main
+                form(method='POST' action="/groups/create")
+                    label(for='group_name') Group Name:
+                    input(type='text' id = 'group_name' name='group_name')
+                    br
+
+                    label(for="owner") Username:
+                    input(type='text' id="owner" name="owner")
+                    br
+
+                    label(for="password") Password:
+                    input(type = 'text' id = 'password' name='password')
+                    br
+
+                    label(for="group_subject") Subject Code:
+                    input(type = 'text' id = "group_subject" name="group_subject")
+                    br
+
+                    label(for="group_assignment") Ongoing Assignment:
+                    input(type = "text" id = "group_assignment" name="group_assignment")
+                    br
+
+                    button(type='submit') Create

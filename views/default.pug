@@ -1,0 +1,25 @@
+doctype html
+html
+    head
+        title #{title}
+        link(rel='stylesheet', href='/css/styles.css')
+        meta(name="viewport" content="width=device-width, initial-scale=1")
+    body
+        center
+                div(class="head").header
+                    h1 #{title}
+                div.menu
+
+
+                    a(href='/login') Login Page
+                    br
+
+
+                    a(href='/groups') Groups
+                    br
+
+
+
+
+
+        block content

@@ -1,0 +1,23 @@
+doctype html
+html
+    head
+        title #{title}
+    body
+        center
+            div.header
+                h1 #{title}
+            div.main
+                form(method='POST' action="/groups/join")
+                    label(for='group_name') Group Name:
+                    input(type='text' id = 'group_name' name='group_name')
+                    br
+
+                    label(for="username") Username:
+                    input(type='text' id="username" name="username")
+                    br
+
+                    label(for="password") Password:
+                    input(type = 'text' id = 'password' name='password')
+                    br
+
+                    button(type='submit') Join

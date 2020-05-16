@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<body>
+		<center>
+			<h1>Login/Register</h1>
+			<form action="../login/verify" method="post" id=login>
+			  <label for="username">Username: </label>
+			  <input type="text" id="username" name="username"><br><br>
+			  <label for="password">Password: </label>
+			  <input type="text" id="password" name="password"><br><br>
+			  <input type="submit" value="Login" id="submitbutton">
+			</form>
+
+			<br>
+			<button id="toggletype" onclick="toggleLoginRegister()">Toggle Login/Register</button>
+		</center>
+
+		<!-- Simple test script for changing between login and registration -->
+		<script type="text/javascript">
+			var login = true;
+
+			function toggleLoginRegister () {
+				login = !login;
+
+				if(login){
+					document.getElementById("login").action = "../login/verify";
+					document.getElementById("submitbutton").value = "Login";
+				}else{
+					document.getElementById("login").action = "../login/create";
+					document.getElementById("submitbutton").value = "Register";
+				}
+			}
+		</script>
+
+	</body>
+</html>

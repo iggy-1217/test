@@ -1,0 +1,38 @@
+block content
+    div.header
+       center
+        h1 #{title}
+    div.main
+        center
+            div
+                form(method="POST" action="/groups/get")
+                    label(for='group_subject') Subject Code:
+                    input(type='text' id="group_subject" name="group_subject")
+                    br
+                    button(type="submit") Search
+
+
+
+                    table
+                        tr
+                            th Group Name
+                            th Subject Code
+                            th Ongoing assignment
+
+                        each group in groups
+                            tr
+                                td #{group.group_name}
+                                td #{group.group_subject}
+                                td #{group.group_assignment}
+
+            div
+                h3 Click Go! to get all the groups
+                form(method='get' action="/groups/get")
+                    button(type="submit") Go!
+
+            div
+                h3 Do not have a desirable group for your subject?
+                h3 Go back to the main menu click  "Create a Group" to create One!
+
+
+

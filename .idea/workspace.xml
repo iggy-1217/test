@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="93284f06-a099-4779-97ba-ee6c42c2c973" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/createGroup.pug" beforeDir="false" afterPath="$PROJECT_DIR$/views/createGroup.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/group.pug" beforeDir="false" afterPath="$PROJECT_DIR$/views/group.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/groupInfo.pug" beforeDir="false" afterPath="$PROJECT_DIR$/views/groupInfo.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/joinGroup.pug" beforeDir="false" afterPath="$PROJECT_DIR$/views/joinGroup.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/updateGroup.pug" beforeDir="false" afterPath="$PROJECT_DIR$/views/updateGroup.pug" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1bzxlUvEKFnycY1G7a2WtkJjOeg" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="93284f06-a099-4779-97ba-ee6c42c2c973" name="Default Changelist" comment="" />
+      <created>1589648875618</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1589648875618</updated>
+      <workItem from="1589648883134" duration="4329000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="-16" y="23" width="777" height="857" key="dock-window-1" timestamp="1589651373021">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="-16" y="23" width="777" height="857" key="dock-window-1/0.23.1440.877@0.23.1440.877" timestamp="1589651373021" />
+  </component>
+</project>

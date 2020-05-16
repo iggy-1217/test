@@ -1,12 +1,16 @@
 doctype html
 html
-    head
-        title #{title}
-    body
-        center
-            div.header
-                h1 #{title}
-            div.main
+        head
+            title #{title}
+            link(rel='stylesheet' type = 'text/css' href='/css/styles.css')
+
+        body
+            center
+                div.header
+                    h1 #{title}
+
+
+                div.main
                 form(method='POST' action="/groups/create")
                     label(for='group_name') Group Name:
                     input(type='text' id = 'group_name' name='group_name')
@@ -29,3 +33,4 @@ html
                     br
 
                     button(type='submit') Create
+        <

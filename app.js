@@ -1,11 +1,14 @@
 const express = require('express')
 const bodyParser = require("body-parser");
+const path = require('path')
 
 const app = express();
 
 app.set('view engine', 'pug');
 
 require("./models")
+app.use(express.static(path.join(__dirname, 'public')));
+
 
 const loginRouter = require('./routes/loginRouter');
 const achvRouter = require('./routes/achvRouter');
